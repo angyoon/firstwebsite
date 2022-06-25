@@ -1,0 +1,238 @@
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    height: 100;
+    width: 100;
+   
+}
+.head-bar{
+    background: #ffff1c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00c3ff, #ffff1c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00c3ff, #ffff1c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 22px;
+    padding: 2px 2px 2px 5%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color:#263343;
+    padding: 8px 12px;
+}
+.header{
+    margin-top: 3%;
+    display: flex;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color:#263343;
+    padding: 8px 12px;
+}
+
+.navbar__menu{
+    display:flex;
+    list-style:none;
+    padding-left:0;
+    margin:0 auto;
+    letter-spacing:20px; 
+
+}
+
+.navbar__menu li{
+    padding:8px 12px;
+}
+
+.navbar__menu li:hover{
+    background-color:#d49466;
+    border-radius:4px;
+}
+#contents h1 {
+    color: #888888;
+    font-size: 50px;
+    line-height: 70px;
+    padding:0 0 15px 0;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #cecece;
+    font-family: 'Yanone', 'Nanum Gothic', '맑은 고딕', Helvetica, Arial, sans-serif;
+}
+.hidden {
+	display: none;
+}
+
+.last {
+    margin-right: 0;
+    float: right;
+    margin:auto;
+}
+
+.footer a:hover{
+    color: black;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+@media screen and (max-width: 100px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 8px 24px;
+    }
+
+    .navbar__menu{
+        flex-direction:column;
+        align-items:center;
+        width:100%;
+    }
+    .navbar__menu li{
+        width:100%;
+        text-align:center;
+    }
+    #flex1_QM {
+        display: flex;
+        color: black;
+        height: 1100px;
+        padding-left: 215px;
+        text-decoration: none;
+        flex-direction: column;
+        align-items: space-evenly;
+    }
+    
+    #flexin1_QM {
+        display: flex;
+        padding-top: 1cm;
+        padding-bottom: 0.5cm;
+        justify-content: space-between;
+    }
+    #flexin3_QM {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+}
+#contact{
+    color: black;
+    font-weight: bold;
+}
+
+
+
+h1 {
+	font-size: 3rem;
+	color: black;
+	margin: 30px;
+    text-align: left;
+   
+}
+
+
+.text{
+    font-size: 30px;
+    line-height: 1.6;
+}
+
+.title{
+    color : #0000CD
+}
+
+.title:hover{
+    transform: scale(1.2);
+}
+
+.project{
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15%;
+}
+
+.project2{
+    margin-bottom: 5%;
+}
+
+.project a{
+    text-decoration: none;
+}
+
+.box{
+    float: left;
+    margin-bottom: 3%;
+    margin:auto;
+}
+
+.box img {
+    width: 500px;
+    height: 330px;
+    border: 10px solid #00c3ff;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.box h2{
+    color: #00c3ff;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+.footer {
+    background: #00c3ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin:auto;
+}
+
+#contact{
+    color: black;
+    font-weight: bold;
+}
+
+.onethird {
+    width: 306px;
+    margin-right: 21px;
+    float: left
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+#flex1_QM {
+    display: flex;
+    color: black;
+    height: 1100px;
+    padding-left: 215px;
+    text-decoration: none;
+    flex-direction: column;
+    align-items: space-evenly;
+}
+
+#flexin1_QM {
+    display: flex;
+    padding-top: 1cm;
+    padding-bottom: 0.5cm;
+    justify-content: space-between;
+}
+#flexin3_QM {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
