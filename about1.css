@@ -1,3 +1,10 @@
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    height: 100;
+    width: 100;
+   
+}
 .head-bar{
     background: #ffff1c;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #00c3ff, #ffff1c);  /* Chrome 10-25, Safari 5.1-6 */
@@ -18,15 +25,6 @@
     margin-top: 3%;
     display: flex;
     justify-content: center;
-    align-items: center;   
-    margin:auto;
-}
-.navbar{
-    display:flex;
-    justify-content: space-between;
-    align-items:center;
-    background-color:#263343;
-    padding: 8px 12px;
 }
 
 .navbar__menu{
@@ -34,7 +32,7 @@
     list-style:none;
     padding-left:0;
     margin:0 auto;
-    letter-spacing:20px; 
+    letter-spacing:13px; 
 
 }
 
@@ -59,56 +57,12 @@
 .hidden {
 	display: none;
 }
-/*aboutme*/
-.onethird {
-    width: 306px;
-    margin-right: 21px;
-    float: left;
-    margin:auto;
-
-}
-.last {
-    margin-right: 0;
-    float: right;
-    margin:auto;
-}
 
 .footer a:hover{
     color: black;
     font-weight: bold;
     transition: all 0.2s;
 }
-@media screen and (max-width: 100px) {
-    .navbar {
-      flex-direction: column;
-      align-items: flex-start;
-      padding: 8px 24px;
-    }
-
-    .navbar__menu{
-        flex-direction:column;
-        align-items:center;
-        width:100%;
-    }
-    .navbar__menu li{
-        width:100%;
-        text-align:center;
-    }
-    .onethird {
-        width: 306px;
-        margin-right: 21px;
-        float: left
-    }
-    .last {
-    margin-right: 0;
-    float: right;
-    margin:auto;
-    }
-    .hidden {
-        display: none;
-    }
-}
-    
 
 #contact{
     color: black;
@@ -123,57 +77,6 @@ h1 {
     text-align: center;
    
 }
-
-
-.text{
-    font-size: 30px;
-    line-height: 1.6;
-}
-
-.title{
-    color : #0000CD
-}
-
-.title:hover{
-    transform: scale(1.2);
-}
-
-.project{
-    clear: both;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 15%;
-}
-
-.project2{
-    margin-bottom: 5%;
-}
-
-.project a{
-    text-decoration: none;
-}
-
-.box{
-    float: left;
-    margin-bottom: 3%;
-    margin:auto;
-}
-
-.box img {
-    width: 500px;
-    height: 330px;
-    border: 10px solid #00c3ff;
-    border-radius: 20px;
-    margin: 20px;
-}
-
-.box h2{
-    color: #00c3ff;
-    text-align: center;
-    font-size: 2rem;
-}
-
 
 .footer {
     background: #00c3ff;  /* fallback for old browsers */
@@ -200,7 +103,7 @@ h1 {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 23px;
     line-height: 25px;
     margin-bottom: 15px;
 }
@@ -209,6 +112,9 @@ a{
     text-decoration:none;
     color:white;
 }
+
+
+
 
 
 
