@@ -4,7 +4,6 @@ body{
     font-family: 'Nunito', sans-serif;
     height: 100;
     width: 100;
-   
 }
 
 .head-bar{
@@ -22,7 +21,6 @@ body{
     align-items:center;
     background-color:#263343;
     padding: 8px 12px;
-    
 }
 
 .header{
@@ -32,7 +30,6 @@ body{
     align-items: center;   
     margin:auto;
 }
-
 
 .content1{
     display: flex;
@@ -45,8 +42,7 @@ h1 {
 	font-size: 3rem;
 	color: black;
 	margin: 30px;
-    text-align: center;
-   
+    text-align: center;  
 }
 
 .z-text:hover {
@@ -72,6 +68,7 @@ h1 {
 }
 
 .p-text{
+    font-family: 'Nanum Gothic', '맑은 고딕', Helvetica, Arial, sans-serif;
     clear: both;
     font-size: 27px;
     line-height:1;
@@ -100,7 +97,6 @@ h1 {
     margin-bottom: 15%;
 }
 
-
 .box{
     float: left;
     margin-bottom: 3%;
@@ -120,7 +116,6 @@ h1 {
     text-align: center;
     font-size: 2rem;
 }
-
 
 .footer {
     background: #00c3ff;  /* fallback for old browsers */
@@ -151,22 +146,18 @@ h2 {
     line-height: 25px;
     margin-bottom: 15px;
 }
-body{
-    margin:0;
-}
+
 a{
     text-decoration:none;
     color:white;
 }
-
-
 
 .navbar__menu{
     display:flex;
     list-style:none;
     padding-left:0;
     margin:0 auto;
-    letter-spacing:20px; 
+    letter-spacing:12px; 
 
 }
 
@@ -179,7 +170,7 @@ a{
     border-radius:4px;
 }
 
-@media screen and (max-width: 100px) { *미디어커리
+@media screen and (max-width: 100px) { 
     .navbar {
       flex-direction: column;
       align-items: flex-start;
@@ -195,13 +186,7 @@ a{
         width:100%;
         text-align:center;
     }
-    .project{
-        clear: both;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 15%;
-    }
+  
     .footer {
         background: #00c3ff;  /* fallback for old browsers */
         background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
@@ -215,19 +200,15 @@ a{
         margin:auto;
     }
     .box{
-        float: left;
         margin-bottom: 3%;
-        margin:auto;
+        margin:0;
+        flex-direction:row;
+        width: 100px;
     }
-    .project{
-        clear: both;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 15%;
-    }
-
-
+    
+}
+.hidden {
+	display: none;
 }
 
 #contents h1 {
