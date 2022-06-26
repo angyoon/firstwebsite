@@ -6,9 +6,9 @@ body{
    
 }
 .head-bar{
-    background: #ffff1c;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #00c3ff, #ffff1c);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #00c3ff, #ffff1c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ffff1c;  
+    background: -webkit-linear-gradient(to right, #00c3ff, #ffff1c); 
+    background: linear-gradient(to right, #00c3ff, #ffff1c); 
     color:white;
     position: fixed;
     top: 0;
@@ -79,9 +79,9 @@ h1 {
 }
 
 .footer {
-    background: #00c3ff;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #00c3ff;  
+    background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff); 
+    background: linear-gradient(to right, #ffff1c, #00c3ff);
     text-align: center;
     color: white;
     font-size: 20px;
