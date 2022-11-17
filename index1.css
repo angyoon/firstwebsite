@@ -14,13 +14,13 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
-    font-size: 22px;
+    font-size: 24px;
     padding: 2px 2px 2px 5%;
     display:flex;
     justify-content: space-between;
     align-items:center;
     background-color:#263343;
-    padding: 8px 12px;
+    padding: 10px 12px;
 }
 
 .header{
@@ -43,6 +43,7 @@ h1 {
 	margin: 30px;
     text-align: center;  
 }
+
 
 .z-text:hover {
 	transform: rotateX(-15deg);
@@ -147,6 +148,7 @@ h2 {
 }
 
 a{
+    margin: 500;
     text-decoration:none;
     color:white;
 }
@@ -154,18 +156,19 @@ a{
 .navbar__menu{
     display:flex;
     list-style:none;
-    padding-left:0;
     margin:0 auto;
-    letter-spacing:12px; 
-
+    letter-spacing:20px; 
+    max-width: 50;
+    padding-block: 10;
 }
 
 .navbar__menu li{
-    padding:8px 12px;
+    margin-left: 20;
+    padding:12px 12px;
 }
 
 .navbar__menu li:hover{
-    background-color:#d49466;
+    background-color:#7d9232;
     border-radius:4px;
 }
 
@@ -177,6 +180,7 @@ a{
     }
 
     .navbar__menu{
+        margin: 20;
         flex-direction:column;
         align-items:center;
         width:100%;
