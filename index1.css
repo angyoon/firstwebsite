@@ -238,11 +238,11 @@ a{
 }
 
     .date{
-        font-size: 20px; 
+        font-size: 18px; 
         color: rgb(79, 76, 137);  /* 흰색 */
     }
     .time{
-        font-size: 20px;
+        font-size: 18px;
         font-weight: bold;
         color: rgb(79, 76, 137);  /*보라색 */
     }
