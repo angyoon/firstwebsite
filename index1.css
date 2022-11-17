@@ -146,7 +146,19 @@ h2 {
     line-height: 25px;
     margin-bottom: 15px;
 }
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17D4FE;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+   
 
+
+}
 a{
     margin: 500;
     text-decoration:none;
@@ -224,3 +236,13 @@ a{
     text-shadow: 1px 1px 1px #cecece;
     font-family: 'Yanone', 'Nanum Gothic', '맑은 고딕', Helvetica, Arial, sans-serif;
 }
+
+    .date{
+        font-size: 20px; 
+        color: rgb(79, 76, 137);  /* 흰색 */
+    }
+    .time{
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(79, 76, 137);  /*보라색 */
+    }
