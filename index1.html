@@ -1,7 +1,8 @@
 
 <!DOCTYPE html>
-<html lang="en">
 <head>
+
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index1.css">
@@ -9,7 +10,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
     <title>웹 포트폴리오</title>
 </head>
-<body>
+<body >
+
+
+<br>
+<br>
+<br>
+<br>
+
+    <video src = "movie.mp4" width = "1700" height = "500" autoplay controls></video>
+
+    <input type="button" value="night" onclick="
+    document.querySelector('body').style.backgroundColor='black';
+    document.querySelector('body').style.color='white'; 
+">
+<input type="button" value="day" onclick="
+document.querySelector('body').style.backgroundColor='white';
+document.querySelector('body').style.color='black'; ">
+    
     <div class="header">
         <div class="head-bar"> 🌐 Yoonho Portfolio
             <ul class="navbar__menu">
@@ -19,10 +37,13 @@
         
             </ul>
         </div>
-        <h1><br>
+        <h1>
+            <br>
+            <br>
             <br>
             <span data-z><p>안녕하세요, 장윤호입니다.</p>
                 제 웹사이트에 방문해주셔서 감사합니다. 😃</span>
+            <br>
         </h1>
     </div>
     
@@ -67,6 +88,22 @@
       
      
         </div>
+    </div>
+
+
+
+    <div>
+        <h1>Instagram Comments</h1>
+<form action="/dogs" id="instaForm">
+  <input type="text" name="username" placeholder="username" />
+  <input type="text" name="comment" placeholder="comment" />
+  <button>댓글 달기</button>
+</form>
+<h2>댓글:</h2>
+<ul id="comments">
+  <li>I AM LI!!!</li>
+  <li>I AM LI!!!</li>
+</ul>
     </div>
     
     <div class="footer">
